@@ -9,7 +9,7 @@ import AOS from "aos"
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 
-const page = () => {
+const Page = () => {
   useEffect(() => {
   AOS.init({
     easing: "ease-out-back",
@@ -32,5 +32,5 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
 
